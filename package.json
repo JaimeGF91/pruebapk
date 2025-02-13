@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "description": "una aplicacion web de pokemon",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "lite",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "rollup": "^2.56.3",
+    "rollup-plugin-lit-html": "^1.0.0"
+  },
+  "keywords": [
+    "pokemon",
+    "lit-element",
+    "web-app"
+  ],
+  "author": "Jaime gagliuffi",
+  "license": "MIT"
+}
